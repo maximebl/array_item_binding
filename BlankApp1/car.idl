@@ -1,0 +1,10 @@
+namespace BlankApp1
+{
+    [bindable]
+    [default_interface]
+    runtimeclass car : Windows.UI.Xaml.Data.INotifyPropertyChanged
+    {
+        car();
+		IObservableVector<IInspectable> wheels;
+    }
+}

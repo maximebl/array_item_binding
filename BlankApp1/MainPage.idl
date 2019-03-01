@@ -1,0 +1,11 @@
+import "car.idl";
+
+namespace BlankApp1
+{
+    [default_interface]
+    runtimeclass MainPage : Windows.UI.Xaml.Controls.Page
+    {
+        MainPage();
+		car my_car;
+    }
+}

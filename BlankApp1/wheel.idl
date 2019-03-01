@@ -1,0 +1,10 @@
+namespace BlankApp1
+{
+    [bindable]
+    [default_interface]
+    runtimeclass wheel : Windows.UI.Xaml.Data.INotifyPropertyChanged
+    {
+        wheel();
+		String wheel_val;
+    }
+}
